@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Corpus Academia, Fisioterapia e Nutrição">
+  <defs>
+    <linearGradient id="corpusDarkBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1C1E21" />
+      <stop offset="100%" stop-color="#111111" />
+    </linearGradient>
+    <linearGradient id="corpusGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD100" />
+      <stop offset="100%" stop-color="#FFB800" />
+    </linearGradient>
+  </defs>
+
+  <!-- Fundo Preto Carvão Corpus -->
+  <rect width="512" height="512" rx="112" fill="url(#corpusDarkBg)" />
+
+  <!-- Moldura geométrica inspirada no balcão da recepção -->
+  <path
+    d="M84 196V108c0-13.3 10.7-24 24-24h296c13.3 0 24 10.7 24 24v296c0 13.3-10.7 24-24 24H108"
+    fill="none"
+    stroke="url(#corpusGold)"
+    stroke-width="28"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <!-- "C" cursivo dinâmico inspirado no logotipo real -->
+  <path
+    d="M322 174c18-16 20-34 2-40-34-12-104 20-140 84-34 62-22 128 34 146 44 14 96-14 128-56"
+    fill="none"
+    stroke="url(#corpusGold)"
+    stroke-width="44"
+    stroke-linecap="round"
+  />
+
+  <!-- Chevrons >>> na base (detalhe real da recepção) -->
+  <g stroke="url(#corpusGold)" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M138 386l18 16-18 16" />
+    <path d="M168 386l18 16-18 16" />
+    <path d="M198 386l18 16-18 16" />
+    <line x1="238" y1="402" x2="352" y2="402" />
+  </g>
+
+  <!-- Badge clínico Verde Fisioterapia -->
+  <circle cx="384" cy="136" r="34" fill="#008A45" stroke="#141414" stroke-width="10" />
+  <path
+    d="M384 122v28M370 136h28"
+    stroke="#FFFFFF"
+    stroke-width="8"
+    stroke-linecap="round"
+  />
+</svg>
